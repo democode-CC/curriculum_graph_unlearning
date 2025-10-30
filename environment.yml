@@ -1,0 +1,50 @@
+name: curr_graph_unlearning
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python
+  - python=3.10
+
+  # PyTorch (CPU version - modify for CUDA if needed)
+  - pytorch=2.4.0
+  - torchvision=0.19.0
+  - torchaudio=2.4.0
+  - cpuonly  # Remove this line and add cudatoolkit for GPU support
+
+  # PyTorch Geometric and dependencies
+  - pyg=2.5.0
+  - pytorch-scatter
+  - pytorch-sparse
+  - pytorch-cluster
+  - pytorch-spline-conv
+
+  # Scientific Computing
+  - numpy>=1.24.3
+  - scipy>=1.10.1
+  - pandas>=2.0.2
+
+  # Graph Analysis
+  - networkx>=3.1
+
+  # Visualization
+  - matplotlib>=3.7.1
+  - seaborn>=0.12.2
+
+  # Utilities
+  - tqdm>=4.65.0
+  - scikit-learn>=1.2.2
+
+  # Development
+  - jupyter
+  - ipykernel
+
+  # Pip packages (if not available in conda)
+  - pip
+  - pip:
+    - torch-geometric-temporal  # Optional, for temporal graphs
+
+

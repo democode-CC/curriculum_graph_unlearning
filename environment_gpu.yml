@@ -1,0 +1,51 @@
+name: graph_unlearning_gpu
+channels:
+  - pytorch
+  - nvidia
+  - pyg
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python
+  - python=3.9
+
+  # PyTorch with CUDA 11.8 support
+  - pytorch=2.0.0
+  - torchvision=0.15.0
+  - torchaudio=2.0.0
+  - pytorch-cuda=11.8
+
+  # PyTorch Geometric and dependencies
+  - pyg=2.3.0
+  - pytorch-scatter
+  - pytorch-sparse
+  - pytorch-cluster
+  - pytorch-spline-conv
+
+  # Scientific Computing
+  - numpy=1.24.3
+  - scipy=1.10.1
+  - pandas=2.0.2
+
+  # Graph Analysis
+  - networkx=3.1
+
+  # Visualization
+  - matplotlib=3.7.1
+  - seaborn=0.12.2
+
+  # Utilities
+  - tqdm=4.65.0
+  - scikit-learn=1.2.2
+
+  # Development
+  - jupyter
+  - ipykernel
+
+  # Pip packages
+  - pip
+  - pip:
+    - torch-geometric-temporal  # Optional
+
+
