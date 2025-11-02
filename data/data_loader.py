@@ -324,3 +324,4 @@ def get_forget_retain_split(data, forget_ratio, is_kg=False, seed=42):
         return forget_mask, retain_mask
 
 
+

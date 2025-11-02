@@ -9,3 +9,4 @@ from .knowledge_graph_models import RGCN, CompGCN
 __all__ = ['GCN', 'GAT', 'GraphSAGE', 'RGCN', 'CompGCN']
 
 
+

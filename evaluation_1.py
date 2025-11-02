@@ -323,8 +323,8 @@ if __name__ == '__main__':
         '--unlearn_epochs', '50',
         '--npo_beta', '0.1',
         '--npo_lambda', '0.5',
-        '--save_model', 'True',
-        '--load_pretrained', 'True'
+        '--save_model',
+        '--load_pretrained'
     ])
     
     # Run evaluation

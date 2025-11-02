@@ -320,8 +320,8 @@ if __name__ == '__main__':
         '--eval_type', 'hyperparameter_sensitivity',
         '--learning_epochs', '200',
         '--unlearn_epochs', '50',
-        '--save_model', 'True',
-        '--load_pretrained', 'True'
+        '--save_model',
+        '--load_pretrained'
     ])
     
     # Run evaluation
