@@ -94,7 +94,7 @@ Results
 | `--gnn_model` | `GCN` | `GCN`, `GAT`, or `GraphSAGE` |
 | `--unlearn_rate` | `0.1` | Fraction of training nodes to forget |
 | `--num_curricula` | `8` | Number of curriculum stages K |
-| `--complexity_metric` | `retain_coupling` | Node complexity metric (see below) |
+| `--complexity_metric` | `gradient_norm` | Node complexity metric (see below) |
 | `--curriculum_mode` | `overlapping` | `overlapping` or `non_overlapping` |
 | `--curriculum_order` | `hard_to_easy` | Stage ordering |
 | `--overlap_ratio` | `0.2` | Overlap fraction ρ between adjacent stages |
