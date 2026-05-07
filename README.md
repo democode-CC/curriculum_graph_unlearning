@@ -1,4 +1,4 @@
-# CUNO: Curriculum Unlearning with Negative Preference Optimization
+# CUNO: Curriculum and Preference Optimization for Stable Graph Unlearning under Mass Deletion
 
 This repository provides a minimal, self-contained implementation of **CUNO**, the graph unlearning method proposed in:
 
